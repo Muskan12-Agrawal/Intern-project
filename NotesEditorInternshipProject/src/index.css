@@ -1,0 +1,36 @@
+@tailwind  base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+.ProseMirror {
+  @apply outline-none min-h-[200px] p-4;
+}
+
+.ProseMirror p {
+  @apply mb-3;
+}
+
+.ProseMirror h1 {
+  @apply text-3xl font-bold mb-4;
+}
+
+.ProseMirror h2 {
+  @apply text-2xl font-bold mb-3;
+}
+
+.ProseMirror h3 {
+  @apply text-xl font-bold mb-2;
+}
+
+.ProseMirror ul {
+  @apply list-disc pl-6 mb-3;
+}
+
+.ProseMirror ol {
+  @apply list-decimal pl-6 mb-3;
+}
+ 
